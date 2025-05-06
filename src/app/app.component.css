@@ -1,0 +1,39 @@
+/* Custom scrollbar for sidebar */
+aside {
+  scrollbar-width: thin;
+  scrollbar-color: #4B5563 #1F2937;
+}
+
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: #1F2937;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #4B5563;
+  border-radius: 3px;
+}
+
+/* Transition effects */
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Active link styles */
+a[routerLinkActive="bg-gray-700"] {
+  background-color: #374151;
+}
+
+/* Hover effects */
+a:hover {
+  background-color: #4B5563;
+}
+
+/* Main content area */
+main {
+  min-height: 100vh;
+  background-color: #F3F4F6;
+}
